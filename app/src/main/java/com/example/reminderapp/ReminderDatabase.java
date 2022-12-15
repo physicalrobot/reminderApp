@@ -11,7 +11,7 @@ import androidx.room.RoomDatabase;
 
 @Database(entities = {Reminder.class}, version = 1)
 public abstract class ReminderDatabase extends RoomDatabase {
-    public abstract ReminderDao reminderDao();
+    public abstract Reminder.ReminderDao reminderDao();
 
     private static ReminderDatabase INSTANCE;
 

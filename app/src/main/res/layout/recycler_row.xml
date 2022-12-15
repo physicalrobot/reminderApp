@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1">
+
+        <TextView
+            android:id="@+id/tv_reminderbody"
+            android:layout_width="157dp"
+            android:layout_height="30dp"
+            android:text="TextView"
+            tools:layout_editor_absoluteX="144dp"
+            tools:layout_editor_absoluteY="12dp" />
+
+        <TextView
+            android:id="@+id/tv_username"
+            android:layout_width="108dp"
+            android:layout_height="24dp"
+            android:layout_weight="1"
+            android:text="TextView"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="12dp" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</LinearLayout>
